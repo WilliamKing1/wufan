@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#3473C",
+    "navigationBarTitleText": "悟饭",
+    "navigationBarTextStyle":"white"
+   
+  },
+   "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "image/home.png",      
+      "selectedIconPath": "image/home-hl.png"
+    }, {
+      "pagePath": "pages/index/index",
+      "iconPath": "image/category.png",
+      "selectedIconPath": "image/category-hl.png"
+    }, {
+      "pagePath": "pages/index/index",
+      "iconPath": "image/explore.png",
+      "selectedIconPath": "image/explore-hl.png"
+    }, {
+      "pagePath": "pages/index/index",
+      "iconPath": "image/cart.png",
+      "selectedIconPath": "image/cart-hl.png"
+    }]
+  }
+    
+   
+ 
+   
+}

@@ -1,0 +1,37 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="search">
+        
+        <view class="search-input">
+            <image class="search-icon" src="../../image/ath.png" mode="aspectFit" />
+            <input class="serach-text" placeholder="搜一搜" />
+        </view>
+     
+    </view>
+<scroll-view class="main" scroll-y="true" bindscrolltoupper="" bindscrolltolower="" bindscroll="" scroll-into-view="" scroll-top="32px">
+	<block wx:for="{{topiclist}}" wx:key="unique">
+		<view class="topic-item">
+		<image class="topic-img" style="" mode="" src="{{item.imgsrc}}" binderror="" bindload=""></image>
+		<view class="topic-content">
+			<view class="content-titile">
+				<text >{{item.title}}</text>
+			</view>
+			<view class="content-introduce"> 
+				<text >{{item.introduce}}</text>
+			</view>
+			<view class="content-author">
+				<text >{{item.author}}</text>	
+			</view>	
+            <view class="content-introduce">
+				<text >{{item.locations}}</text>	
+			</view>	
+		</view>	
+		<text class="content-rank">{{item.rank}}</text>	
+	</view>	
+	</block>
+</scroll-view>	
+ 
+ 
+
+
+</view>
